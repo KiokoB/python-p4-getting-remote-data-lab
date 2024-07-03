@@ -17,4 +17,5 @@ class GetRequester:
 # result = GetRequester("https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json").get_response_body()
 # print(result)
 get_requester = GetRequester('https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json')
-get_requester.load_json()
+#print(get_requester)
+print(get_requester.load_json())
